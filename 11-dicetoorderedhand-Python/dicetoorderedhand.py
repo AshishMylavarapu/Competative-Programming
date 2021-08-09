@@ -12,4 +12,13 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	pass
+	sol=""
+	li=[]
+	li.append(a)
+	li.append(b)
+	li.append(c)
+	li.sort(reverse=True)
+	for i in range (len(li)):
+		sol+=str(li[i])
+
+	return int(sol)
