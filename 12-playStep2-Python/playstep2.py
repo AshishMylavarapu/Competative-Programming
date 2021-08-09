@@ -35,4 +35,63 @@
 
 def playstep2(hand, dice):
 	# your code goes here
-	pass
+	hand1=hand
+	dice1=dice
+	h1=[]
+	while(hand>0):
+		r=hand%10
+		h1.append(r)
+		hand=hand//10
+
+	d1=[]
+	while(dice>0):
+		x=dice%10
+		d1.append(x)
+		dice=dice//10
+	# d1=d1[::-1]
+	print(d1)
+	
+	li1=[]
+	if(len(set(h1))==len(h1)):
+		li1.append(max(h1))
+		li1=li1+d1[:2]
+		d1=d1[2:]
+		d1=d1[::-1]
+		li1.sort(reverse=True)
+		s=""
+		for i in li1:
+			s+= str(i)
+		
+		D=""
+		for j in d1:
+			D+=str(j)
+
+		return (int(s),int(D))
+	
+	else:
+		
+		for i in range(len(h1)):
+			count=h1.count(h1[i])
+			if (count>1):
+				li1.append(h1[i])
+		
+	
+
+		l=len(h1)-len(li1)
+		if(l==1):
+
+			li1.append(d1[0])
+			d1=d1[1:]
+			d1=d1[::-1]
+			li1.sort(reverse=True)
+			s=""
+			for i in li1:
+				s+= str(i)
+			
+			D=""
+			for j in d1:
+				D+=str(j)
+
+			return (int(s),int(D))
+		else:
+			return(hand1,dice1)
