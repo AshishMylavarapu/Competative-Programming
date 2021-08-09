@@ -7,4 +7,11 @@
 
 def handtodice(hand):
 	# your code goes here
-	pass
+	li=[]
+	while(hand>0):
+		r = hand%10
+		hand = hand//10
+		li.append(r)
+	li = li[::-1]
+	
+	return tuple(li)
