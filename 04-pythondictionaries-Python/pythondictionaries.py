@@ -23,21 +23,34 @@ alphabetic order. Make it function with name as sortUSA(), return list of cities
 order, next to the name of the country.
 In your output, label each answer with a number
 so it looks like this: (Make it function with name as alphaAsia(), return list of cities)
-1
+1   
 American City
 American City
-2
+2   
 Asian City - Country
 Asian City - Country"""
 
 
 def sortUSA():
     '''Return all the cities in the USA in alphabetical order'''
-    pass
+    for continents in locations:
+        if (continents=="North America"):
+            for country in locations[continents]:
+                if(country=="USA"):
+                    return sorted(locations[continents][country])
 
 def alphaAsia():
     '''Return all the cities in Asia continent in alphabetical order'''
-    pass
+    cities =[]
+    for continents in locations:
+        if (continents=="Asia"):
+            
+            for i in locations[continents]:
+                
+                x = locations[continents][i][0] +" - "+ i
+                cities.append(x)
+    return cities
+    
 
 # Note: Check for test cases to understand the output format.
-locations = {'North America': {'USA': ['Mountain View']}}
+locations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India': ['Bangalore'],'China': ['Shanghai']},'Africa':{'Egypt':['Cairo']},}
