@@ -6,4 +6,12 @@
 
 def isevenpositiveint(x):
 	# your code goes here
-	pass
+	if(isinstance(x,int)):
+		if(x<2):
+			return False
+		elif(x%2==0):
+			return True
+		else:
+			return False
+	else:
+		return False
