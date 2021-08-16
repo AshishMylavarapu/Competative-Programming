@@ -11,8 +11,32 @@
 
 
 def fun_applycaesarcipher(msg, shift):
-	return ""
+	
+    encrypted = ""
+    for i in range(len(msg)):   
+        if(msg[i] == " "):
+            encrypted += " "
+        if(msg[i].islower()):
+            if(ord(msg[i])+shift > 122):
+                encrypted += chr(96+((ord(msg[i])+shift) - 122))
+              
+            elif(ord(msg[i])+shift < 97):
+                x = 97 - (ord(msg[i])+shift)
+                encrypted += chr(122-(x-1))
+            else:
+                encrypted += chr(ord(msg[i])+shift)
+                
+        elif(msg[i].isupper()):
+            if(ord(msg[i])+shift > 90):
+                encrypted += chr(64+((ord(msg[i])+shift) - 90))
+                
+            elif(ord(msg[i])+shift < 65):
+                y = 65 - (ord(msg[i])+shift)
+                encrypted += chr(90-(y-1))
+            else:
+                encrypted += chr(ord(msg[i])+shift)    
+                
 
-
+    return encrypted
 
 
