@@ -22,7 +22,11 @@
 #   [ 0, 1, 3] ]
 
 def removeRowAndCol(L, row, col):
-    # Your code goes here...
-    pass
+    
+    L.remove(L[row])
+    for i in range(len(L)):
+        L.remove(L[i][col])
+
+    return L
 
 # Write your own test cases.
