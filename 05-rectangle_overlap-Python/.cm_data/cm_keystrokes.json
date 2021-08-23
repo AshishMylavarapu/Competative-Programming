@@ -1,0 +1,67 @@
+{
+    "rectangle_overlap.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:34:29",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "10,87"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:51:19",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:42",
+            "keyStrokeInfo": "x1=left1\r\n    y1=top1\r\n    x2=left1+width1\r\n    y2=top1+height1\r\n    n1=left2\r\n    m1=top2\r\n    n2=left2+width2\r\n    m2=top2+height2\r\n    if(((x1<=n1 and n1<=x2) or (x1<=n2 and n2<=x2) or (n1<=x1 and x1<=n2) or (n1<=x2 and x2<=n2)) and ((y1<=m1 and m1<=y2) or (y1<=m2 and m2<=y2) or (m1<=y1 and y1<=m2) or (m1<=y2 and y2<=m2))):\r\n        return True\r\n",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:44",
+            "keyStrokeInfo": "",
+            "position": "23,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:44",
+            "keyStrokeInfo": "",
+            "position": "23,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:44",
+            "keyStrokeInfo": "",
+            "position": "23,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:45",
+            "keyStrokeInfo": "",
+            "position": "23,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:46",
+            "keyStrokeInfo": "F",
+            "position": "23,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:59:47",
+            "keyStrokeInfo": "False",
+            "position": "23,12"
+        }
+    ]
+}
