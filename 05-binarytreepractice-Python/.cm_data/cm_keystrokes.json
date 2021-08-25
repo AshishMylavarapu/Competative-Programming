@@ -1,0 +1,88 @@
+{
+    "binarytree.py": [
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:23:35",
+            "keyStrokeInfo": "return self.preorder_search(self.root,find_val)",
+            "position": "12,8"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:23:38",
+            "keyStrokeInfo": " \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"",
+            "position": "12,8"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:23:42",
+            "keyStrokeInfo": "return self.preorder_search(self.root,find_val)",
+            "position": "15,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:23:45",
+            "keyStrokeInfo": "",
+            "position": "16,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:23:57",
+            "keyStrokeInfo": "self.preorder_print(self.root)",
+            "position": "21,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:24:15",
+            "keyStrokeInfo": "if(start==None):\r\n            return False\r\n        if(start.value==find_val):\r\n            return True\r\n        return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)",
+            "position": "28,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:24:26",
+            "keyStrokeInfo": " if(start==None):\r\n            return False\r\n        if(start.value==find_val):\r\n            return True\r\n        return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)",
+            "position": "38,8"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:24:55",
+            "keyStrokeInfo": "       if(start==None):\r\n            return False\r\n        if(start.value==find_val):\r\n            return True\r\n        return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)",
+            "position": "38,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:24:59",
+            "keyStrokeInfo": "",
+            "position": "38,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:24:59",
+            "keyStrokeInfo": "",
+            "position": "38,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:26:38",
+            "keyStrokeInfo": "  if(start is None):\r\n            return\r\n        print(start.value)\r\n        self.preorder_print(start.left)\r\n        self.preorder_print(self.right)",
+            "position": "38,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:26:42",
+            "keyStrokeInfo": "",
+            "position": "38,9"
+        }
+    ]
+}
