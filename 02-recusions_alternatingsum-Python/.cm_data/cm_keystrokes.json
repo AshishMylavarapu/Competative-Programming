@@ -1,0 +1,25 @@
+{
+    "recursions_alternatingsum.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:37:58",
+            "keyStrokeInfo": "def sum(l,i,a):\r\n    if(len(l)==i):\r\n        return a\r\n    elif(i%2==0):\r\n        a=a+l[i]\r\n        return sum(l,i+1,a)\r\n    else:\r\n        a=a-l[i]\r\n        return sum(l,i+1,a)\r\ndef recursionOnlyAlternatingSum(l):\r\n    # your code goes here\r\n    \r\n    return sum(l,0,0)",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:38:21",
+            "keyStrokeInfo": "",
+            "position": "19,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:38:58",
+            "keyStrokeInfo": "fun_recursions_alternatingsum",
+            "position": "15,5"
+        }
+    ]
+}
