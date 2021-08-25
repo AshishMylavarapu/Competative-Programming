@@ -1,0 +1,18 @@
+{
+    "binarysearch.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:17:02",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "14,26"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:17:06",
+            "keyStrokeInfo": "low = 0  \r\n    high = len(input_array) - 1  \r\n    mid = 0  \r\n  \r\n    while (low <= high):  \r\n        mid = (high + low) // 2  \r\n        if (input_array[mid] < value):  \r\n            low = mid + 1  \r\n        elif (input_array[mid] > value):  \r\n            high = mid - 1  \r\n        else:  \r\n            return mid  \r\n    return -1",
+            "position": "15,5"
+        }
+    ]
+}
