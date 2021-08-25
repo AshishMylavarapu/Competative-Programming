@@ -1,0 +1,25 @@
+{
+    "recursion_onlyevendigits.py": [
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:40:41",
+            "keyStrokeInfo": "def even(a,b=0):\r\n    if a==0:\r\n        return b\r\n    else:\r\n        if(a%10)%2==0:\r\n            return even(a//10,b=b*10+a%10)\r\n        else:\r\n            return even(a//10,b)\r\n\r\ndef reverse(a,b=0):\r\n    if a==0:\r\n        return b\r\n    else:\r\n        return reverse(a//10,b=b*10+a%10)\r\n\r\ndef listing(l,i):\r\n    if len(l)==i:\r\n        return l\r\n    else:\r\n        a=l[i]\r\n        l[i]=reverse(even(a))\r\n        return listing(l,i+1)\r\ndef fun_recursion_onlyevendigits(l): \r\n    # your code goes here\r\n    if len(l)==0:\r\n        return l\r\n    return listing(l,0)",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:40:44",
+            "keyStrokeInfo": "def fun_recursion_onlyevendigits(l): \r\n\t\treturn []",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:40:46",
+            "keyStrokeInfo": "def even(a,b=0):\r\n    if a==0:\r\n        return b\r\n    else:\r\n        if(a%10)%2==0:\r\n            return even(a//10,b=b*10+a%10)\r\n        else:\r\n            return even(a//10,b)\r\n\r\ndef reverse(a,b=0):\r\n    if a==0:\r\n        return b\r\n    else:\r\n        return reverse(a//10,b=b*10+a%10)\r\n\r\ndef listing(l,i):\r\n    if len(l)==i:\r\n        return l\r\n    else:\r\n        a=l[i]\r\n        l[i]=reverse(even(a))\r\n        return listing(l,i+1)\r\ndef fun_recursion_onlyevendigits(l): \r\n    # your code goes here\r\n    if len(l)==0:\r\n        return l\r\n    return listing(l,0)",
+            "position": "11,1"
+        }
+    ]
+}
