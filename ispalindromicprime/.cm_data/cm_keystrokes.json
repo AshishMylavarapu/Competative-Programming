@@ -1,0 +1,11 @@
+{
+    "ispalindromicprime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 32,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:21:41",
+            "keyStrokeInfo": "def prime(k):\r\n    if(k<2):\r\n        return False\r\n    elif(k==2):\r\n        return True\r\n    elif(k%2==0):\r\n        return False\r\n    else:\r\n        for i in range(3,int((k**0.5)),2):\r\n            if(k%i==0):\r\n                return False\r\n            \r\n        return True\r\n        \r\n\r\ndef palin(n):   \r\n    temp=n\r\n    rev=0\r\n    while(n>0):\r\n        dig=n%10\r\n        rev=rev*10+dig\r\n        n=n//10\r\n    if(temp==rev):\r\n        return True\r\n    else:\r\n        return False\r\n        \r\ndef ispalindromic(s):\r\n    if(prime(s)==True):\r\n        if(palin(s)==True):\r\n            return (\"The number is palindromic prime\")\r\n    return (\"The number is not palindromic prime\")",
+            "position": "1,1"
+        }
+    ]
+}
