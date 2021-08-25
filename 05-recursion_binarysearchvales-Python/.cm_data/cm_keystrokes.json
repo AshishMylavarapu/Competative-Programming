@@ -1,0 +1,11 @@
+{
+    "recursion_binarysearchvalues.py": [
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:53:53",
+            "keyStrokeInfo": "li=[]\r\n\ta=0\r\n\tb=len(L)-1\r\n\treturn bsearch(L,a,b,v,li)\r\n\r\ndef bsearch(L,a,b,v,li):\r\n\tif(len(li)>=len(L)/2):\r\n\t\t\treturn li\r\n\telse:\r\n\t\tcen=(a+b)//2\r\n\t\tif(L[cen]==v):\r\n\t\t\t\tli=listing(cen,v,li)\r\n\t\t\t\treturn li\r\n\t\telif((ord(L[cen])>(ord(v)))):\r\n\t\t\t\tb=cen-1\r\n\t\t\t\tli=listing(cen,L[cen],li)\r\n\t\t\t\treturn bsearch(L,a,b,v,li)\r\n\t\telse:\r\n\t\t\ta=cen+1\r\n\t\t\tli=listing(cen,L[cen],li)\r\n\t\t\treturn bsearch(L,a,b,v,li)\r\n\r\n\r\ndef listing(n,v,li):\r\n\t\tresult=(n,v)\r\n\t\tli.append(result)\r\n\t\treturn li",
+            "position": "21,2"
+        }
+    ]
+}
