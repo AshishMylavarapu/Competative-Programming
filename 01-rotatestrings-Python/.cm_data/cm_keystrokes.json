@@ -1,0 +1,25 @@
+{
+    "rotatestrings.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:35:45",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "9,29"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:35:47",
+            "keyStrokeInfo": "if n>len(s):\r\n\t\tn=n-len(s)\r\n\telif(n<0):\r\n\t\tn=len(s)+n\r\n\tl=s[0:n]\r\n\tls=s[n:]\r\n\tsum=ls+l\r\n\treturn sum",
+            "position": "10,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:36:10",
+            "keyStrokeInfo": "",
+            "position": "18,2"
+        }
+    ]
+}
