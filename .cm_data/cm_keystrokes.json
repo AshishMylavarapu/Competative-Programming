@@ -1,0 +1,32 @@
+{
+    "SayHi.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 19:10:32",
+            "keyStrokeInfo": "class Dog():\r\n    name=\"\"\r\n    age=0\r\n    def _init_(self,name,age):\r\n        self.name=name\r\n        self.age=age\r\n\r\n\r\ndef SayHi(Object):\r\n    return (\"Hi, my name is \" + Object.name+ \" and I am \" + str(Object.age)+  \" years old!\")\r\n\r\nd1=Dog(\"jack\",10) \r\nprint(SayHi(d1))",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 19:14:42",
+            "keyStrokeInfo": "class Dog():\r\n    name=\"\"\r\n    age=0\r\n    def __init__(self,name,age):\r\n        self.name=name\r\n        self.age=age\r\n",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 19:14:50",
+            "keyStrokeInfo": "def SayHi(Object):\r\n    return (\"Hi, my name is \" + Object.name+ \" and I am \" + str(Object.age)+  \" years old!\")\r\n",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 19:14:57",
+            "keyStrokeInfo": "d1=Dog(\"jack\",10) \r\nprint(SayHi(d1))\r\n",
+            "position": "15,1"
+        }
+    ]
+}
