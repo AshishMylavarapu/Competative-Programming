@@ -1,0 +1,39 @@
+{
+    "inverselookandsay.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:43:12",
+            "keyStrokeInfo": "",
+            "position": "25,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:43:13",
+            "keyStrokeInfo": "",
+            "position": "25,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:43:13",
+            "keyStrokeInfo": "",
+            "position": "25,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:43:13",
+            "keyStrokeInfo": "",
+            "position": "25,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:43:13",
+            "keyStrokeInfo": "\r\n    li=[]\r\n    try:\r\n        for i in a:\r\n            j=i[0]\r\n            k=i[1]\r\n            for l in range(j):\r\n                li.append(k)\r\n        return li\r\n    except IndexError:\r\n        return li",
+            "position": "25,2"
+        }
+    ]
+}
