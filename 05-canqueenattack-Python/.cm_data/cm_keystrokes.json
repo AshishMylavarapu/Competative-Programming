@@ -1,0 +1,53 @@
+{
+    "canqueenattack.py": [
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:46:40",
+            "keyStrokeInfo": " if qC-oC==0 or qR-oR==0 or abs(qC-oC == qR-oR):\r\n        return True\r\n    return False",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:46:43",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:46:47",
+            "keyStrokeInfo": "",
+            "position": "8,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:46:48",
+            "keyStrokeInfo": "\t",
+            "position": "8,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:47:01",
+            "keyStrokeInfo": "    if qC-oC==0 or qR-oR==0 or abs(qC-oC == qR-oR):\r\n        return True\r\n    return False",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:47:03",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:47:13",
+            "keyStrokeInfo": "def canqueenattack(qR, qC, oR, oC):\r\n\r\n    if qC-oC==0 or qR-oR==0 or abs(qC-oC == qR-oR):\r\n        return True\r\n    return False",
+            "position": "6,1"
+        }
+    ]
+}
