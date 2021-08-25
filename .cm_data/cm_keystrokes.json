@@ -1,0 +1,102 @@
+{
+    "areAnagrams.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:14",
+            "keyStrokeInfo": " s1=s1.lower()\r\n    s2=s2.lower()\r\n    for j in string.ascii_lowercase:\r\n        if s1.count(j)!=s2.count(j):\r\n            return False\r\n    return True",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:16",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:19",
+            "keyStrokeInfo": "i",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:19",
+            "keyStrokeInfo": "m",
+            "position": "12,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:19",
+            "keyStrokeInfo": "import",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:20",
+            "keyStrokeInfo": " ",
+            "position": "12,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:21",
+            "keyStrokeInfo": "s",
+            "position": "12,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:22",
+            "keyStrokeInfo": "t",
+            "position": "12,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:22",
+            "keyStrokeInfo": "r",
+            "position": "12,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:23",
+            "keyStrokeInfo": "4",
+            "position": "12,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:23",
+            "keyStrokeInfo": "",
+            "position": "12,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:24",
+            "keyStrokeInfo": "i",
+            "position": "12,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:25",
+            "keyStrokeInfo": "n",
+            "position": "12,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:59:25",
+            "keyStrokeInfo": "string",
+            "position": "12,8"
+        }
+    ]
+}

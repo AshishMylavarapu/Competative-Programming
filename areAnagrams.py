@@ -9,9 +9,13 @@
 # functions or approaches. Hint: you may use s.count(), 
 # which could be quite handy here.
 # Hint: The time complexity can be achieved in Linear.
-
+import string
 def areAnagrams(s1, s2):
-    # Your code goes here...
-    pass
+    s1=s1.lower()
+    s2=s2.lower()
+    for j in string.ascii_lowercase:
+        if s1.count(j)!=s2.count(j):
+            return False
+    return True
 
 # write your test cases here...
