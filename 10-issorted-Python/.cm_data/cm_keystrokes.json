@@ -1,0 +1,11 @@
+{
+    "issorted.py": [
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:29:12",
+            "keyStrokeInfo": "li=a\r\n\tli=sorted(li)\r\n\tli1=sorted(li, reverse=True)\r\n\r\n\tif(li==a or li1==a):\r\n\t\treturn True\r\n\treturn False",
+            "position": "9,2"
+        }
+    ]
+}

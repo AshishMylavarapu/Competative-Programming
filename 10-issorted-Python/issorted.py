@@ -6,5 +6,10 @@
 # the list.
 
 def issorted(a):
-	# your code goes here
-	pass
+	li=a
+	li=sorted(li)
+	li1=sorted(li, reverse=True)
+
+	if(li==a or li1==a):
+		return True
+	return False
