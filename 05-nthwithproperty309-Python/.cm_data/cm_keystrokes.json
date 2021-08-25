@@ -1,0 +1,34 @@
+{
+    "nthwithproperty309.py": [
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:21:11",
+            "keyStrokeInfo": "def check(n):\r\n\ta=n**5\r\n\tg=str(a)\r\n\tres=[]\r\n\tfor i in g:\r\n\t\tif(g.count(i)>=1):\r\n\t\t\tres.append(i)\r\n\tres=set(res)\r\n    # print(len(res))\r\n\tif(len(res)==10):\r\n\t\treturn True\r\n\telse:\r\n\t\treturn False\r\n\r\n\r\ndef nthwithproperty309(n):\r\n\t# Your code goes here\r\n\tfound=0\r\n\tguess=308\r\n\twhile(found<=n):\r\n\t\tguess+=1\r\n\t\tif(check(guess)):\r\n\t\t\tfound+=1\r\n\r\n\treturn guess",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:21:39",
+            "keyStrokeInfo": "import os,sys\r\nsys.path.append(os.getcwd())\r\nfrom nthwithproperty309 import nthwithproperty309\r\nimport pytest\r\n\r\n\r\n@pytest.mark.parametrize('x, result',[\r\n\t(0, 309),\r\n\t(1, 418),\r\n\t(2, 462),\r\n\t(3, 474),\r\n\t(4,575),\r\n\t(5, 635),\r\n\t(6, 662),\r\n\t(100, 2014),\r\n\t(1000, 7813)\r\n])\r\n\r\ndef test_nthwithproperty309(x, result):\r\n    assert nthwithproperty309(x) == result",
+            "position": "31,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:23:08",
+            "keyStrokeInfo": "",
+            "position": "31,1"
+        }
+    ],
+    "test_nthwithproperty309.py": [
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:24:25",
+            "keyStrokeInfo": "import os,sys\r\nsys.path.append(os.getcwd())\r\nfrom nthwithproperty309 import nthwithproperty309\r\nimport pytest\r\n\r\n\r\n@pytest.mark.parametrize('x, result',[\r\n\t(0, 309),\r\n\t(1, 418),\r\n\t(2, 462),\r\n\t(3, 474),\r\n\t(4,575),\r\n\t(5, 635),\r\n\t(6, 662),\r\n\t(100, 2014),\r\n\t(1000, 7813)\r\n])\r\n\r\ndef test_nthwithproperty309(x, result):\r\n    assert nthwithproperty309(x) == result",
+            "position": "1,1"
+        }
+    ]
+}
