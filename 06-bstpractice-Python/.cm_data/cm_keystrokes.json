@@ -1,0 +1,39 @@
+{
+    "bst.py": [
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:33:10",
+            "keyStrokeInfo": " new_node = Node(new_val)\r\n        if (self.root == None):\r\n            self.root = new_node\r\n        else:\r\n            present_node = self.root\r\n            parent_node = self.root\r\n            while (present_node != None):\r\n                parent_node = present_node\r\n                if (new_val < present_node.value):\r\n                    present_node = present_node.left\r\n                else:\r\n                    present_node = present_node.right\r\n            if (new_val < parent_node.value):\r\n                parent_node.left= new_node\r\n            else:\r\n                parent_node.right = new_node",
+            "position": "12,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:33:18",
+            "keyStrokeInfo": "",
+            "position": "12,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:33:39",
+            "keyStrokeInfo": "print(self.root)",
+            "position": "30,8"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:33:51",
+            "keyStrokeInfo": "   while self.root!=None:\r\n            if self.root.value == find_val:\r\n                return True \r\n            if self.root.value < find_val:\r\n                self.root = self.root.right\r\n            else:\r\n                self.root = self.root.left\r\n        return False",
+            "position": "33,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 18:33:54",
+            "keyStrokeInfo": "",
+            "position": "33,9"
+        }
+    ]
+}
