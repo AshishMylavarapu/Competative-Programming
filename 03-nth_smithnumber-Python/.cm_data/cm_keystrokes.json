@@ -1,0 +1,18 @@
+{
+    "nth_smithnumber.py": [
+        {
+            "operation": "PASTE",
+            "lines": 54,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 19:03:20",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if(n==0):\r\n        return False\r\n    if(n==2):\r\n        return True\r\n    else:\r\n        for i in range(2,n//2+1):\r\n\r\n            if(n%i==0):\r\n                return False\r\n    return True\r\n\r\ndef isSmith(n):\r\n    if(isPrime(n)!=True):\r\n        k=n\r\n        m=0\r\n        sum=0\r\n        li=[]\r\n        if n==1:\r\n            return False\r\n        for i in range(2,(n//2) + 1):\r\n            if((isPrime(i)==True) and (n%i==0)):\r\n                li.append(i)\r\n         \r\n        for i in str(n):\r\n            sum+=int(i)\r\n        temp=[]\r\n        for i in li:\r\n            while (k%i==0 and k!=0):\r\n                temp.append(i)    \r\n                m+=i\r\n                k=k//i\r\n        sum1=0        \r\n        for j in temp:\r\n            if(j>9):\r\n                for i in str(j):\r\n                    sum1+=int(i)\r\n            else:\r\n               sum1+=j\r\n        if(sum==sum1):\r\n            return True\r\n        else:\r\n            return False\r\n\r\ndef fun_nth_smithnumber(n):\r\n    count=0\r\n    temp=1\r\n    a =0\r\n    while(n+1!=count):\r\n        if(isSmith(temp)==True):\r\n            count+=1\r\n            b=temp\r\n        temp+=1\r\n    return b",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 19:03:31",
+            "keyStrokeInfo": "",
+            "position": "64,1"
+        }
+    ]
+}
