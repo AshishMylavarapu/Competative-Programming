@@ -1,0 +1,55 @@
+{
+    "happyprimes.py": [
+        {
+            "operation": "PASTE",
+            "lines": 34,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:26:10",
+            "keyStrokeInfo": "def isPrime(x):\r\n    if(x<2):\r\n        return False\r\n    if(x==2):\r\n        return True\r\n    if(x%2==0):\r\n        return False\r\n    n=round(x**0.5)\r\n    for i in range(3,n+1,2):\r\n        if(x%i==0):\r\n            return False\r\n\r\n    return True\r\n\r\n\r\ndef powersquare(n):\r\n    sum=0\r\n    while(n>0):\r\n        sum=sum+(n%10)**2\r\n        n=n//10\r\n    return sum\r\ndef Happy(n):\r\n    while(True):\r\n        if n==1:\r\n            return True\r\n        elif n==4:\r\n            return False\r\n        else:\r\n            n=powersquare(n)\r\n    return False\r\ndef ishappyprimenumber(n):\r\n    if(isPrime(n) and  Happy(n)==True):\r\n        return True\r\n    return False",
+            "position": "13,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:26:18",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "13,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:26:18",
+            "keyStrokeInfo": "",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 25 2021 20:26:25",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        }
+    ],
+    "test_happyprimes.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:50:19",
+            "keyStrokeInfo": "F",
+            "position": "13,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:50:19",
+            "keyStrokeInfo": "a",
+            "position": "13,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:50:20",
+            "keyStrokeInfo": "False",
+            "position": "13,20"
+        }
+    ]
+}
