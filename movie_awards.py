@@ -17,5 +17,8 @@
 # }
 
 def movieAwards(oscarResults):
-    # Your code goes here...
-    pass
+    r=list(oscarResults)
+    a={}
+    for i, j in r:
+        a[j]=a.get(j,0)+1
+    return a

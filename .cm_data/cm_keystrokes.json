@@ -1,0 +1,18 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:10:53",
+            "keyStrokeInfo": "    r=list(oscarResults)\r\n    a={}\r\n    for i, j in r:\r\n        a[j]=a.get(j,0)+1\r\n    return a",
+            "position": "20,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:10:56",
+            "keyStrokeInfo": "",
+            "position": "20,5"
+        }
+    ]
+}
