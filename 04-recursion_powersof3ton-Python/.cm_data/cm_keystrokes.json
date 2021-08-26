@@ -1,0 +1,46 @@
+{
+    "recursion_powersof3ton.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:14:30",
+            "keyStrokeInfo": "",
+            "position": "7,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:14:32",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "7,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:15:56",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:15:57",
+            "keyStrokeInfo": "def check(n,l,i=0,total=0):\r\n\t\ttotal=(3**i)\r\n\t\tif(total<=n):\r\n\t\t\t\tl.append(total)\r\n\t\ti+=1\r\n\t\tif(total>=n):\r\n    \t\t\treturn l\r\n\t\treturn check(n,l,i,total)\r\n\r\ndef recursion_powersof3ton(n):\r\n\t# Your code goes here\r\n\t\r\n\tl=[]\r\n\tif(n<1):\r\n    \t\treturn None\r\n\telse:\r\n    \t\treturn check(n,l)",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:16:02",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:16:03",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        }
+    ]
+}
