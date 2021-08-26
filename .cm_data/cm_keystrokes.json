@@ -1,0 +1,109 @@
+{
+    "quiz.py": [
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:45",
+            "keyStrokeInfo": " row=len(l)\r\n    col=len(l[0])\r\n    sum=0\r\n    c=0\r\n    res=[]\r\n    for i in range(col):\r\n          sum=0\r\n          c=0\r\n          for j in range(row):\r\n                if(l[j][i]!=-1):\r\n                      sum+=l[j][i]\r\n                      c+=1\r\n          if(c!=0):\r\n                average=sum/c\r\n                res.append(average)\r\n    if(len(res)==0):\r\n          return None\r\n    else:\r\n          return res.index(max(res))",
+            "position": "8,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:49",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:51",
+            "keyStrokeInfo": "      ",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:54",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:54",
+            "keyStrokeInfo": "",
+            "position": "7,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:55",
+            "keyStrokeInfo": "\r\n      ",
+            "position": "7,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:58",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:56:58",
+            "keyStrokeInfo": "      ",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:57:06",
+            "keyStrokeInfo": "      ",
+            "position": "26,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:00:42",
+            "keyStrokeInfo": "t",
+            "position": "43,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:00:43",
+            "keyStrokeInfo": "e",
+            "position": "43,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:00:43",
+            "keyStrokeInfo": "s",
+            "position": "43,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:00:43",
+            "keyStrokeInfo": "t",
+            "position": "43,4"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:00:44",
+            "keyStrokeInfo": "testBestQuiz",
+            "position": "43,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:00:45",
+            "keyStrokeInfo": "()",
+            "position": "43,13"
+        }
+    ]
+}
