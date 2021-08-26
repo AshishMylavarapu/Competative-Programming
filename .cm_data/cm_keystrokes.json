@@ -1,0 +1,11 @@
+{
+    "LatinSquare.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 12:09:34",
+            "keyStrokeInfo": "if(len(lst)==0):\r\n        return None\r\n    else:\r\n        row=len(lst)\r\n        col=len(lst[0])\r\n        c=0\r\n        for i in lst:\r\n            a=set(i)\r\n            if(len(a)==col):\r\n                c+=1\r\n            else:\r\n                return False\r\n        return True",
+            "position": "11,5"
+        }
+    ]
+}

@@ -8,5 +8,16 @@
 # Write your own test cases...
 
 def isLatinSquare(lst):
-    # Your code goes here...
-    pass
+    if(len(lst)==0):
+        return None
+    else:
+        row=len(lst)
+        col=len(lst[0])
+        c=0
+        for i in lst:
+            a=set(i)
+            if(len(a)==col):
+                c+=1
+            else:
+                return False
+        return True
